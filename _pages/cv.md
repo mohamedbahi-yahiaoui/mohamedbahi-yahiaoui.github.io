@@ -9,37 +9,56 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+[Download PDF version](/files/cv-bahi.pdf)
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Experience
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+### CEA Cadarache — Research Engineer
+**November 2022 – November 2025**
+
+- Developed an out-of-distribution detection method reaching state-of-the-art performance.
+- Built dynamic neural-network surrogate models for transport and accumulation of fission gases over the full reactor lifetime, accelerating reference simulations by a factor of 100.
+- Developed neural-network surrogate models for a Gibbs energy minimizer.
+
+### CEA Saclay — Research Engineer, AAIMME Project
+**February 2022 – September 2022**
+
+- Worked on inverse reconstruction with deep learning for PET imaging: estimation of gamma-photon interaction position and time from complex detector signals.
+- Developed uncertainty-aware approaches, including point estimates and associated uncertainty estimates for interaction parameters.
+
+### CEA Saclay — Intern
+**April 2021 – September 2021**
+
+- Developed a multitask deep-learning model for identification and intensity estimation of radioactive sources, with explicit uncertainty quantification.
+- Studied Density Neural Networks, Bayesian Neural Networks, and information-theoretic uncertainty measures.
+
+## Education
+
+### Université Grenoble Alpes
+**PhD in Computer Science**  
+Defense: **27 November 2025**
+
+Thesis: *“Métamodèles de réseaux de neurones avec une nouvelle approche de monitoring pour accélérer les simulations multiphysiques”*
+
+### École des Mines de Saint-Étienne
+**MSc in Applied Mathematics**
+
+Coursework included stochastic modeling, statistical learning, and numerical modeling.
+
+### Institut National des Postes et Télécommunications, Rabat
+**Engineering degree (MEng) in Data Science**
+
+Coursework included machine learning, statistical modeling, software engineering, big data, and distributed systems.
+
+## Skills
+
+- **Scientific machine learning:** Physics-informed neural networks (PINNs), neural surrogate modeling, operator learning
+- **Core ML:** Deep learning, representation learning, computer vision, multi-task learning
+- **Reliable AI:** Uncertainty quantification, out-of-distribution detection, calibration, robustness evaluation
+- **Modeling & computation:** Inverse problems, numerical modeling, optimization, statistical learning
+- **Software & engineering:** Python, C++, Linux, Git, reproducible experimentation, profiling, deployment
+- **Languages:** French (bilingual), English (bilingual), Arabic (native)
 
 Publications
 ======
@@ -52,13 +71,3 @@ Talks
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
