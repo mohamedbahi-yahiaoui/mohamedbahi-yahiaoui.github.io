@@ -13,23 +13,27 @@ redirect_from:
 
 ## Profile
 
-Researcher and machine-learning engineer with experience in **scientific machine learning**, **reliable AI**, **uncertainty quantification**, and **physics-based surrogate modeling**. My recent work combines methodological research with implementation in applied scientific settings at CEA, with contributions spanning **out-of-distribution detection**, **uncertainty-aware reconstruction**, and **neural surrogates for multiphysics simulations**.
+Researcher and machine-learning engineer with experience in **reliable AI**, **scientific ML**, **representation learning**, and **uncertainty quantification**. My recent work combines methodological research with implementation in applied scientific settings at CEA, with contributions spanning **out-of-distribution detection**, **representation-space monitoring**, **uncertainty-aware reconstruction**, and **scientific ML for multiphysics simulation**.
 
-I am currently seeking **postdoctoral** and **research engineer** opportunities where I can contribute to trustworthy ML, AI for science, robust computer vision, scientific software, and deployable ML systems for high-stakes environments. While my recent applications have been in nuclear simulation and detector imaging, the methods I work on are broadly transferable to other research and industrial domains.
+I am currently seeking **postdoctoral** and **research engineer** opportunities where I can contribute to reliable AI, scientific ML, representation learning, scientific software, and deployable ML systems for high-stakes environments. While my recent applications have been in nuclear simulation and detector imaging, the methods I work on are broadly transferable to other research and industrial domains.
 
 ## Experience
 
 ### CEA Cadarache - Research Engineer
 **November 2022 - November 2025**
 
-- Developed **BBAS**, a post-hoc out-of-distribution and out-of-model-scope monitoring method based on bounding-box abstraction and activation patterns.
+- Developed **BBAS**, a runtime monitoring method for neural surrogates under distribution shift.
+- Studied out-of-distribution and out-of-model-scope detection through bounding-box abstraction, activation patterns, clustering, and multi-layer monitoring of hidden representations.
+- Evaluated the monitoring approach on standard OOD benchmarks and extended it to convolutional and transformer architectures.
 - Built and evaluated surrogate models for **OpenCalphad** and **CARACAS/ALCYONE** workflows, including data generation, preprocessing, training, monitoring, and deployment.
-- Designed trajectory-aware surrogate architectures for long-horizon multiphysics simulation and achieved about **100x** acceleration in thermodiffusion settings.
+- Designed deployment strategies with fallback to high-fidelity simulation when inputs leave the operational domain.
+- Designed trajectory-aware surrogate architectures for long-horizon multiphysics simulation.
+- Developed reusable research code and experimentation pipelines for integrating learned surrogates into existing scientific software workflows.
 
 ### CEA Saclay - Research Engineer, AAIMME Project
 **February 2022 - September 2022**
 
-- Worked on inverse reconstruction with deep learning for PET imaging, estimating gamma-photon interaction position and time from complex detector signals.
+- Worked on inverse reconstruction for PET imaging, estimating gamma-photon interaction position and time from complex detector signals.
 - Developed uncertainty-aware approaches combining point predictions with uncertainty estimates for interaction parameters.
 - Contributed to methods that improved trustworthiness for scientific imaging pipelines and detector signal interpretation.
 
@@ -47,12 +51,6 @@ Defense: **27 November 2025**
 
 Thesis: *Surrogate Neural Network Models with a Novel Monitoring Approach to Accelerate Multi-Physics Simulations*
 
-- Developed a runtime monitoring framework for neural surrogates under distribution shift, centered on **Bounding Box Anomaly Score (BBAS)**.
-- Studied out-of-distribution and out-of-model-scope detection through bounding-box abstraction, activation patterns, clustering, and multi-layer monitoring.
-- Evaluated the monitoring approach on standard OOD benchmarks and extended it to convolutional and transformer architectures.
-- Built surrogate models for **OpenCalphad** and **CARACAS/ALCYONE**, including deployment strategies with fallback to high-fidelity simulation when inputs leave the operational domain.
-- Designed trajectory-aware surrogate models to improve robustness and stability in long multiphysics simulations.
-
 ### Ecole des Mines de Saint-Etienne
 **MSc in Applied Mathematics**
 
@@ -65,14 +63,14 @@ Coursework: data modeling and statistics, machine learning, software engineering
 
 ## Skills
 
-- **Scientific machine learning:** Physics-informed neural networks (PINNs), neural surrogate modeling, operator learning
-- **Core ML:** Deep learning, representation learning, computer vision, multi-task learning
-- **Reliable AI:** Uncertainty quantification, out-of-distribution detection, calibration, robustness evaluation
+- **Reliable AI:** Uncertainty quantification, out-of-distribution detection, runtime monitoring, calibration, robustness evaluation
+- **Scientific ML:** Physics-informed neural networks (PINNs), operator learning, data-driven simulation, multiphysics modeling
+- **Representation learning and deep learning:** Representation learning, computer vision, multi-task learning, learned feature spaces
 - **Modeling and computation:** Inverse problems, numerical modeling, optimization, statistical learning
-- **Software and engineering:** Python, C++, Linux, Git, reproducible experimentation, profiling, deployment
+- **Software and engineering:** Python, C++, Linux, Git, scientific software integration, reproducible experimentation, pipeline development, profiling, deployment
 - **Languages:** French (bilingual), English (bilingual), Arabic (native)
 
-## Selected Outputs
+## Selected Work
 
 - **Bounding Box Anomaly Scoring for simple and efficient Out-of-Distribution detection**  
   arXiv preprint, 2026. Introduces a compact and updateable post-hoc OOD detection method based on hidden-representation support estimation.
@@ -81,7 +79,7 @@ Coursework: data modeling and statistics, machine learning, software engineering
   Engineering Applications of Artificial Intelligence, 2024. Combines detector-signal reconstruction with uncertainty estimation for more reliable predictions.
 
 - **Reliable Neural Network Model for Accelerating Coupled Thermodiffusion Simulations**  
-  ICAPP 2025. Focused on dependable neural surrogates for multiphysics simulation acceleration.
+  ICAPP 2025. Focused on dependable scientific ML for multiphysics simulation workflows.
 
 Publications
 ======
