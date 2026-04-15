@@ -17,41 +17,14 @@ Researcher and machine-learning engineer with experience in **scientific machine
 
 I am currently seeking **postdoctoral** and **research engineer** opportunities where I can contribute to trustworthy ML, AI for science, robust computer vision, scientific software, and deployable ML systems for high-stakes environments. While my recent applications have been in nuclear simulation and detector imaging, the methods I work on are broadly transferable to other research and industrial domains.
 
-<div class="career-grid">
-  <section class="career-card">
-    <h3>Best Fit For</h3>
-    <ul>
-      <li>Postdoc in scientific ML, trustworthy AI, uncertainty quantification, or AI for physics</li>
-      <li>Research engineer roles in applied ML, simulation acceleration, imaging, or robust model evaluation</li>
-    </ul>
-  </section>
-  <section class="career-card">
-    <h3>Key Strengths</h3>
-    <ul>
-      <li>Bridges theory, experiments, and implementation</li>
-      <li>Strong experience with safety-aware and uncertainty-aware ML</li>
-      <li>Comfortable in multidisciplinary scientific environments</li>
-    </ul>
-  </section>
-  <section class="career-card">
-    <h3>Selected Evidence</h3>
-    <ul>
-      <li>100x acceleration for thermodiffusion simulation surrogates</li>
-      <li>Recent arXiv preprint on competitive OOD detection</li>
-      <li>Published in EAAI and presented at ICAPP and JdS</li>
-    </ul>
-  </section>
-</div>
-
 ## Experience
 
 ### CEA Cadarache - Research Engineer
 **November 2022 - November 2025**
 
-- Developed a post-hoc out-of-distribution detection method with competitive benchmark performance, centered on compact support estimation in representation spaces.
-- Built dynamic neural-network surrogate models for transport and accumulation of fission gases over the full reactor lifetime, accelerating reference simulations by about **100x**.
-- Designed monitoring-oriented surrogate approaches for multiphysics workflows where reliability and computational efficiency are both critical.
-- Developed neural-network surrogate models for a Gibbs energy minimizer in scientific computing settings.
+- Developed **BBAS**, a post-hoc out-of-distribution and out-of-model-scope monitoring method based on bounding-box abstraction and activation patterns.
+- Built and evaluated surrogate models for **OpenCalphad** and **CARACAS/ALCYONE** workflows, including data generation, preprocessing, training, monitoring, and deployment.
+- Designed trajectory-aware surrogate architectures for long-horizon multiphysics simulation and achieved about **100x** acceleration in thermodiffusion settings.
 
 ### CEA Saclay - Research Engineer, AAIMME Project
 **February 2022 - September 2022**
@@ -74,22 +47,21 @@ Defense: **27 November 2025**
 
 Thesis: *Surrogate Neural Network Models with a Novel Monitoring Approach to Accelerate Multi-Physics Simulations*
 
+- Developed a runtime monitoring framework for neural surrogates under distribution shift, centered on **Bounding Box Anomaly Score (BBAS)**.
+- Studied out-of-distribution and out-of-model-scope detection through bounding-box abstraction, activation patterns, clustering, and multi-layer monitoring.
+- Evaluated the monitoring approach on standard OOD benchmarks and extended it to convolutional and transformer architectures.
+- Built surrogate models for **OpenCalphad** and **CARACAS/ALCYONE**, including deployment strategies with fallback to high-fidelity simulation when inputs leave the operational domain.
+- Designed trajectory-aware surrogate models to improve robustness and stability in long multiphysics simulations.
+
 ### Ecole des Mines de Saint-Etienne
 **MSc in Applied Mathematics**
 
-Coursework included stochastic modeling, statistical learning, and numerical modeling.
+Coursework: applied analysis, stochastic modeling and statistical learning, optimization and machine learning, scientific computing, numerical simulation, and metamodeling/global optimization.
 
 ### Institut National des Postes et Telecommunications, Rabat
 **Engineering degree (MEng) in Data Science**
 
-Coursework included machine learning, statistical modeling, software engineering, big data, and distributed systems.
-
-## Research Themes
-
-- **Reliable AI:** Out-of-distribution detection, uncertainty quantification, calibration, robustness evaluation
-- **Scientific machine learning:** Neural surrogate modeling, multiphysics acceleration, monitoring, deployment-aware design
-- **Computer vision and inverse problems:** Reconstruction from detector signals, uncertainty-aware estimation
-- **Applied ML systems:** Reproducible experimentation, evaluation workflows, deployment-aware model development
+Coursework: data modeling and statistics, machine learning, software engineering, databases, systems and networks, project management, and communication.
 
 ## Skills
 
