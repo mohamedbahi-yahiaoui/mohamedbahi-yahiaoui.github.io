@@ -63,12 +63,34 @@ Coursework: data modeling and statistics, machine learning, software engineering
 
 ## Skills
 
-- **Reliable AI:** Uncertainty quantification, out-of-distribution detection, runtime monitoring, calibration, robustness evaluation
-- **Scientific ML:** Physics-informed neural networks (PINNs), operator learning, data-driven simulation, multiphysics modeling
-- **Representation learning and deep learning:** Representation learning, computer vision, multi-task learning, learned feature spaces
-- **Modeling and computation:** Inverse problems, numerical modeling, optimization, statistical learning
-- **Software and engineering:** Python, C++, Linux, Git, scientific software integration, reproducible experimentation, pipeline development, profiling, deployment
-- **Languages:** French (bilingual), English (bilingual), Arabic (native)
+### Core Research Expertise
+
+- Reliable machine learning
+- Scientific machine learning
+- Representation learning
+- Runtime monitoring and verification of neural networks
+- Out-of-distribution and out-of-model-scope detection
+- Physics-informed machine learning
+- Theoretical aspects of deep learning
+
+### Technical Competencies
+
+- Software engineering for machine learning research
+- End-to-end ML pipelines for simulation workflows
+- Model design, training, validation, and empirical evaluation
+- Numerical analysis, scientific computing, and simulation
+- Statistical modeling and uncertainty quantification
+
+### Additional Familiarity
+
+- Operator-learning methods
+- Bayesian neural networks
+
+### Languages
+
+- French (bilingual)
+- English (bilingual)
+- Arabic (native)
 
 ## Selected Work
 

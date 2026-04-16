@@ -45,7 +45,7 @@ redirect_from:
       <li>Reliable AI, uncertainty quantification, and robust model evaluation</li>
       <li>Scientific ML for simulation, digital twins, and data-driven scientific workflows</li>
       <li>Representation learning for monitoring, anomaly detection, imaging, and structured scientific data</li>
-      <li>Engineering of dependable ML systems and reproducible pipelines for scientific applications</li>
+      <li>Engineering of dependable ML systems, reproducible pipelines, and simulation-ready workflows</li>
     </ul>
   </section>
   <section class="career-card">
@@ -62,6 +62,7 @@ redirect_from:
 ## Software and Research Engineering
 
 Alongside the modeling work, I have strong experience turning methods into usable scientific software: building data-generation and preprocessing pipelines, training and evaluation workflows, monitoring logic, deployment-ready components, and integrations with existing simulation codes. I am especially interested in roles where machine learning and software engineering meet, and where reliability, reproducibility, and maintainability matter as much as model quality.
+
 
 ## Contact
 
