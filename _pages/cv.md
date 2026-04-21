@@ -9,38 +9,40 @@ redirect_from:
 
 {% include base_path %}
 
-[Download PDF version](/files/cv-bahi.pdf)
+<div class="cv-download">
+  <a class="btn btn--primary" href="/files/cv-bahi.pdf">Download one-page CV (PDF)</a>
+</div>
 
 ## Profile
 
-Researcher and machine-learning engineer with experience in **reliable AI**, **scientific ML**, **representation learning**, and **uncertainty quantification**. My recent work combines methodological research with implementation in applied scientific settings at CEA, with contributions spanning **out-of-distribution detection**, **representation-space monitoring**, **uncertainty-aware reconstruction**, and **scientific ML for multiphysics simulation**.
+I am a PhD in Computer Science with experience in **reliable AI**, **scientific ML**, **uncertainty-aware modeling**, and **deployable deep learning for high-stakes scientific systems**. My work spans **OOD/OMS detection**, **runtime monitoring**, **neural surrogate models for multiphysics simulation**, and **uncertainty-aware learning from detector signals**.
 
-I am currently seeking **postdoctoral** and **research engineer** opportunities where I can contribute to reliable AI, scientific ML, representation learning, scientific software, and deployable ML systems for high-stakes environments. While my recent applications have been in nuclear simulation and detector imaging, the methods I work on are broadly transferable to other research and industrial domains.
+I am currently seeking **postdoctoral** and **research engineer** opportunities where I can contribute to reliable AI, scientific ML, uncertainty-aware ML, and deployable systems for demanding research environments. Representation-space diagnostics are part of this work, but they are a secondary methodological thread within the broader goal of making neural models safer and more useful in practice.
 
 ## Experience
 
 ### CEA Cadarache - Research Engineer
 **November 2022 - November 2025**
 
-- Developed **BBAS**, a runtime monitoring method for neural surrogates under distribution shift.
-- Studied out-of-distribution and out-of-model-scope detection through bounding-box abstraction, activation patterns, clustering, and multi-layer monitoring of hidden representations.
+- Developed **BBAS**, a post-hoc monitoring method for OOD and OMS detection based on compact hidden-representation support estimation.
+- Studied runtime monitoring under distribution shift through bounding-box abstraction, clustering, anomaly scoring, and multi-layer diagnostics on hidden representations.
 - Evaluated the monitoring approach on standard OOD benchmarks and extended it to convolutional and transformer architectures.
-- Built and evaluated surrogate models for **OpenCalphad** and **CARACAS/ALCYONE** workflows, including data generation, preprocessing, training, monitoring, and deployment.
-- Designed deployment strategies with fallback to high-fidelity simulation when inputs leave the operational domain.
-- Designed trajectory-aware surrogate architectures for long-horizon multiphysics simulation.
-- Developed reusable research code and experimentation pipelines for integrating learned surrogates into existing scientific software workflows.
+- Built neural surrogate models for **OpenCalphad** and **CARACAS/ALCYONE** workflows, covering data generation, preprocessing, training, validation, and empirical evaluation for multiphysics simulations.
+- Designed deployment and fallback logic so surrogate models can defer to reference simulations outside their operational domain.
+- Developed trajectory-aware surrogate models for long-horizon fission-gas simulation workflows and contributed to a reported **100x acceleration** relative to reference simulations.
+- Built reproducible PyTorch-based experimentation pipelines for integrating learned surrogates into existing scientific software environments.
 
 ### CEA Saclay - Research Engineer, AAIMME Project
 **February 2022 - September 2022**
 
-- Worked on inverse reconstruction for PET imaging, estimating gamma-photon interaction position and time from complex detector signals.
-- Developed uncertainty-aware approaches combining point predictions with uncertainty estimates for interaction parameters.
-- Contributed to methods that improved trustworthiness for scientific imaging pipelines and detector signal interpretation.
+- Worked on uncertainty-aware reconstruction of gamma-photon interaction position and time from fast scintillator detector signals.
+- Developed deep-learning models that coupled point prediction with predictive uncertainty for more reliable detector reconstruction.
+- Contributed to work published in *Engineering Applications of Artificial Intelligence* (2024).
 
 ### CEA Saclay - Intern
 **April 2021 - September 2021**
 
-- Developed a multitask deep-learning model for identification and intensity estimation of radioactive sources with explicit uncertainty quantification.
+- Developed multitask deep-learning models for radioactive source identification and intensity estimation under uncertainty.
 - Evaluated Density Neural Networks, Bayesian Neural Networks, and information-theoretic uncertainty measures for robust prediction.
 
 ## Education
@@ -63,28 +65,22 @@ Coursework: data modeling and statistics, machine learning, software engineering
 
 ## Skills
 
-### Core Research Expertise
+### Research Areas
 
-- Reliable machine learning
-- Scientific machine learning
-- Representation learning
-- Runtime monitoring and verification of neural networks
-- Out-of-distribution and out-of-model-scope detection
-- Physics-informed machine learning
-- Theoretical aspects of deep learning
+- Reliable AI and uncertainty quantification
+- Scientific ML for simulation and neural surrogates
+- Runtime monitoring, OOD/OMS detection, and representation-space diagnostics
+- Uncertainty-aware learning from physical signals
+- Physics-informed and deployable ML for high-stakes systems
 
-### Technical Competencies
+### Technical Skills
 
-- Software engineering for machine learning research
-- End-to-end ML pipelines for simulation workflows
-- Model design, training, validation, and empirical evaluation
-- Numerical analysis, scientific computing, and simulation
-- Statistical modeling and uncertainty quantification
-
-### Additional Familiarity
-
-- Operator-learning methods
-- Bayesian neural networks
+- PyTorch and deep learning experimentation
+- Reproducible training, validation, and evaluation workflows
+- End-to-end ML pipelines for simulation environments
+- Numerical analysis, scientific computing, and statistical modeling
+- Integration and deployment logic for scientific software workflows
+- Operator-learning methods and Bayesian neural networks
 
 ### Languages
 
@@ -101,7 +97,7 @@ Coursework: data modeling and statistics, machine learning, software engineering
   Engineering Applications of Artificial Intelligence, 2024. Combines detector-signal reconstruction with uncertainty estimation for more reliable predictions.
 
 - **Reliable Neural Network Model for Accelerating Coupled Thermodiffusion Simulations**  
-  ICAPP 2025. Focused on dependable scientific ML for multiphysics simulation workflows.
+  ICAPP 2025. Focused on reliable neural surrogates for multiphysics simulation workflows.
 
 Publications
 ======

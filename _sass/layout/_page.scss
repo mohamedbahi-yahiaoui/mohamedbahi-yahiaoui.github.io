@@ -8,8 +8,7 @@
   margin-top: 2em;
   padding-left: 1em;
   padding-right: 1em;
-  animation: intro 0.3s both;
-  animation-delay: 0.35s;
+  animation: none;
 
   @include breakpoint($x-large) {
     max-width: $x-large;
@@ -111,8 +110,7 @@
   position: relative;
   margin-bottom: 2em;
   @include clearfix;
-  animation: intro 0.3s both;
-  animation-delay: 0.25s;
+  animation: none;
 
   &--overlay {
     position: relative;
@@ -122,8 +120,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    animation: intro 0.3s both;
-    animation-delay: 0.25s;
+    animation: none;
 
     a {
       color: #fff;
@@ -401,115 +398,195 @@
 }
 
 /*
-   Career-focused homepage and CV blocks
+   Academic landing page and CV polish
    ========================================================================== */
 
-.career-hero {
-  margin: 0 0 2rem;
-  padding: 1.5rem;
-  border: 1px solid var(--global-border-color);
-  border-radius: 18px;
-  background:
-    radial-gradient(circle at top right, rgba(19, 96, 142, 0.12), transparent 35%),
-    linear-gradient(135deg, rgba(10, 35, 66, 0.04), rgba(35, 108, 153, 0.08));
+.page__content {
+  > h2 {
+    margin-top: 2.4rem;
+  }
+
+  > h3 {
+    margin-top: 1.8rem;
+  }
 }
 
-.career-hero__eyebrow {
-  margin-bottom: 0.65rem !important;
-  color: #0f5f85;
+.scholar-hero {
+  margin: 0 0 2.5rem;
+  padding: 2rem 2rem 1.85rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(47, 127, 147, 0.06) 0%, var(--global-bg-color) 100%);
+  box-shadow: 0 18px 38px rgba(18, 36, 52, 0.05);
+  color: var(--global-text-color);
+}
+
+.scholar-hero__eyebrow {
+  margin-bottom: 0.7rem !important;
+  color: var(--global-base-color);
   font-size: $type-size-6;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
-.career-hero__title {
-  margin-top: 0;
-  margin-bottom: 0.9rem;
+.scholar-hero__title {
+  margin: 0 0 1rem;
   border-bottom: 0 !important;
-  font-size: clamp(1.85rem, 4vw, 2.7rem);
-  line-height: 1.15;
+  color: var(--global-text-color);
+  font-size: clamp(1.9rem, 4vw, 2.7rem);
+  line-height: 1.14;
 }
 
-.career-hero__summary {
-  max-width: 52rem;
-  font-size: 1.05rem;
+.scholar-hero__lead {
+  max-width: 54rem;
+  color: var(--global-text-color);
+  font-size: 1.04rem;
 }
 
-.career-actions {
+.landing-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
-  margin-top: 1.25rem;
+  margin-top: 1.4rem;
 }
 
-.career-grid {
+.landing-actions .btn,
+.cv-download .btn {
+  padding: 0.72rem 1.05rem;
+  border-radius: 999px;
+  text-decoration: none !important;
+  box-shadow: none;
+}
+
+.btn--light-outline {
+  color: var(--global-text-color) !important;
+  background: var(--global-bg-color) !important;
+  border: 1px solid var(--global-dark-border-color) !important;
+}
+
+.btn--light-outline:hover {
+  color: var(--global-text-color) !important;
+  border-color: var(--global-base-color) !important;
+}
+
+.focus-grid,
+.result-grid,
+.project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1rem;
-  margin: 1.5rem 0 2rem;
+  margin: 1.35rem 0 0.35rem;
 }
 
-.career-card {
-  padding: 1.15rem 1.1rem;
+.focus-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.result-grid,
+.project-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.scholar-card,
+.result-card,
+.project-card,
+.availability-card,
+.cv-download {
   border: 1px solid var(--global-border-color);
-  border-radius: 16px;
+  border-radius: 18px;
   background: var(--global-bg-color);
-  box-shadow: 0 12px 30px rgba(17, 35, 52, 0.05);
-
-  h3 {
-    margin-top: 0;
-    margin-bottom: 0.75rem;
-    border-bottom: 0 !important;
-    font-size: 1.02rem;
-  }
-
-  p:last-child,
-  ul:last-child {
-    margin-bottom: 0;
-  }
-}
-
-.career-card--accent {
-  border-color: rgba(15, 95, 133, 0.22);
-  background:
-    linear-gradient(180deg, rgba(15, 95, 133, 0.04), var(--global-bg-color));
-}
-
-.impact-strip {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-  gap: 0.85rem;
-  margin: 1.25rem 0 1.5rem;
-}
-
-.impact-chip {
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-  padding: 0.95rem 1rem;
-  border-left: 4px solid #0f5f85;
-  border-radius: 12px;
-  background: rgba(15, 95, 133, 0.09);
+  box-shadow: 0 12px 28px rgba(18, 36, 52, 0.04);
   color: var(--global-text-color);
+}
 
-  strong {
-    line-height: 1.2;
-    color: #083b54;
+.scholar-card,
+.result-card,
+.project-card,
+.availability-card {
+  padding: 1.2rem 1.2rem 1.1rem;
+}
+
+.scholar-card h3,
+.result-card h3,
+.project-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+  border-bottom: 0 !important;
+  color: var(--global-text-color);
+  font-size: 1.02rem;
+}
+
+.scholar-card p:last-child,
+.result-card p:last-child,
+.project-card p:last-child,
+.availability-card p:last-child {
+  margin-bottom: 0;
+}
+
+.result-card {
+  background: linear-gradient(180deg, rgba(47, 127, 147, 0.04) 0%, var(--global-bg-color) 100%);
+}
+
+.deployment-note {
+  margin-top: 0.95rem;
+  color: var(--global-text-color);
+  font-size: 0.98rem;
+}
+
+.availability-card {
+  margin-top: 0.6rem;
+  border-left: 4px solid var(--global-base-color);
+}
+
+.cv-download {
+  display: inline-block;
+  margin: 0 0 1.2rem;
+  padding: 0.5rem;
+  background: var(--global-bg-color);
+}
+
+.project-card p strong {
+  color: var(--global-text-color);
+}
+
+html[data-theme="dark"] {
+  .scholar-hero,
+  .scholar-card,
+  .result-card,
+  .project-card,
+  .availability-card,
+  .cv-download {
+    border-color: var(--global-dark-border-color);
+    background: rgba(255, 255, 255, 0.035);
+    box-shadow: none;
   }
 
-  span {
-    color: var(--global-text-color);
-    font-size: 0.95rem;
+  .scholar-hero {
+    background: linear-gradient(180deg, rgba(14, 161, 197, 0.10) 0%, rgba(255, 255, 255, 0.03) 100%);
+  }
+
+  .result-card {
+    background: rgba(255, 255, 255, 0.04);
+  }
+
+  .btn--light-outline {
+    background: rgba(255, 255, 255, 0.04) !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .focus-grid {
+    grid-template-columns: 1fr;
   }
 }
 
 @media (max-width: 600px) {
-  .career-hero {
-    padding: 1.2rem;
+  .scholar-hero {
+    padding: 1.4rem;
   }
 
-  .career-actions .btn {
+  .landing-actions .btn,
+  .cv-download .btn {
     width: 100%;
     text-align: center;
   }

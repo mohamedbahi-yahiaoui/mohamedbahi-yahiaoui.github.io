@@ -1,69 +1,71 @@
 ---
 permalink: /
-title: "Reliable AI, Scientific ML, and Representation Learning"
+title: "PhD in Computer Science | Reliable AI and Scientific ML"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<div class="career-hero">
-  <p class="career-hero__eyebrow">Open to postdoctoral and research engineer opportunities</p>
-  <h2 class="career-hero__title">I build reliable machine learning methods for scientific and high-stakes systems.</h2>
-  <p class="career-hero__summary">
-    I am <strong>Mohamed Bahi Yahiaoui</strong>, a PhD graduate in computer science and research engineer working at the intersection of
-    <strong>reliable AI</strong>, <strong>scientific ML</strong>, and <strong>representation learning</strong>. My work focuses on making machine learning reliable enough for high-stakes use, expressive enough to capture useful structure in data and hidden representations, and practical enough to integrate into scientific workflows.
+<div class="scholar-hero">
+  <p class="scholar-hero__eyebrow">Open to postdoctoral and research engineer opportunities</p>
+  <h2 class="scholar-hero__title">I build reliable machine learning methods for scientific and high-stakes systems.</h2>
+  <p class="scholar-hero__lead">
+    I am <strong>Mohamed Bahi Yahiaoui</strong>, a PhD in Computer Science working at the intersection of <strong>reliable AI</strong> and <strong>scientific machine learning</strong>. My research focuses on out-of-distribution detection, runtime monitoring, uncertainty-aware modeling, and neural surrogate models for demanding scientific workflows. I develop methods that are not only accurate, but also diagnosable, robust, and usable in real deployment settings.
   </p>
-  <p class="career-hero__summary">
-    My PhD at <strong>Universite Grenoble Alpes</strong> and <strong>CEA Cadarache</strong> centered on
-    <strong>surrogate neural network models with a novel monitoring approach to accelerate multiphysics simulations</strong>.
-    I was supervised by <a href="https://www.julyanarbel.com/">Julyan Arbel</a> and
-    <a href="https://uranie.cea.fr/presentation/team/geoffreydaniel/language/en">Geoffrey Daniel</a>.
+  <p class="scholar-hero__lead">
+    My PhD at <strong>Universite Grenoble Alpes</strong> and <strong>CEA Cadarache</strong> centered on surrogate neural network models and a novel monitoring approach for accelerating multiphysics simulations. Earlier at <strong>CEA Saclay</strong>, I worked on uncertainty-aware reconstruction from detector signals and source identification under uncertainty. Representation-space methods remain a secondary methodological thread within my work on monitoring and anomaly detection.
   </p>
-  <div class="career-actions">
+  <div class="landing-actions">
     <a class="btn btn--primary" href="/files/cv-bahi.pdf">Download CV</a>
-    <a class="btn" href="/cv/">View Full CV</a>
-    <a class="btn" href="/publications/">Browse Publications</a>
+    <a class="btn btn--light-outline" href="/research/">Research</a>
+    <a class="btn btn--light-outline" href="/publications/">Browse Publications</a>
   </div>
 </div>
 
-<div class="career-grid">
-  <section class="career-card career-card--accent">
-    <h3>Research Focus</h3>
-    <p>
-      I work on <strong>reliable AI for scientific and high-stakes settings</strong>, with emphasis on out-of-distribution detection,
-      runtime monitoring, uncertainty-aware modeling, and trustworthy deployment.
-    </p>
-    <p>
-      My thesis combines a monitoring contribution, <strong>BBAS</strong>, with scientific ML work that includes
-      surrogate models for <strong>OpenCalphad</strong> and <strong>CARACAS/ALCYONE</strong>, where the central question is how to make learned models stable, reliable, and usable in real simulation workflows.
-    </p>
+## Research Focus
+
+<div class="focus-grid">
+  <section class="scholar-card">
+    <h3>Reliable AI and uncertainty quantification</h3>
+    <p>I study how neural models can remain informative under shift, with attention to calibrated behavior, uncertainty-aware diagnostics, and safe use in high-stakes scientific workflows.</p>
   </section>
-  <section class="career-card">
-    <h3>Where I Can Contribute</h3>
-    <ul>
-      <li>Reliable AI, uncertainty quantification, and robust model evaluation</li>
-      <li>Scientific ML for simulation, digital twins, and data-driven scientific workflows</li>
-      <li>Representation learning for monitoring, anomaly detection, imaging, and structured scientific data</li>
-      <li>Engineering of dependable ML systems, reproducible pipelines, and simulation-ready workflows</li>
-    </ul>
+  <section class="scholar-card">
+    <h3>Scientific ML for simulation and neural surrogates</h3>
+    <p>I develop neural surrogate models for demanding simulation pipelines, especially when acceleration must be paired with domain awareness and scientifically meaningful validation.</p>
   </section>
-  <section class="career-card">
-    <h3>Selected Results</h3>
-    <ul>
-      <li>Developed <strong>BBAS</strong>, a compact post-hoc method for out-of-distribution detection based on hidden-representation monitoring. <a href="https://arxiv.org/abs/2603.22660">Paper</a></li>
-      <li>Built surrogate models for thermodiffusion and fission-gas simulation workflows within a broader scientific ML setting</li>
-      <li>Designed monitoring and fallback strategies for deployment outside the training regime</li>
-      <li>Contributed to uncertainty-aware reconstruction for gamma-photon interaction estimation from detector signals. <a href="https://doi.org/10.1016/j.engappai.2024.107876">EAAI 2024</a></li>
-    </ul>
+  <section class="scholar-card">
+    <h3>Monitoring, OOD/OMS detection, and representation-space diagnostics</h3>
+    <p>My work includes post-hoc monitoring methods for out-of-distribution and out-of-model-scope detection, using hidden representations as a practical signal for diagnosis.</p>
+  </section>
+  <section class="scholar-card">
+    <h3>Research engineering for deployable and reproducible ML systems</h3>
+    <p>I build reproducible PyTorch workflows, evaluation pipelines, and deployment-aware tooling so methods can be integrated into existing scientific software environments.</p>
   </section>
 </div>
 
-## Software and Research Engineering
+## Selected Results
 
-Alongside the modeling work, I have strong experience turning methods into usable scientific software: building data-generation and preprocessing pipelines, training and evaluation workflows, monitoring logic, deployment-ready components, and integrations with existing simulation codes. I am especially interested in roles where machine learning and software engineering meet, and where reliability, reproducibility, and maintainability matter as much as model quality.
+<div class="result-grid">
+  <section class="result-card">
+    <h3>Post-hoc OOD monitoring</h3>
+    <p>Developed <strong>BBAS</strong>, a compact post-hoc OOD detection method based on hidden-representation monitoring.</p>
+  </section>
+  <section class="result-card">
+    <h3>Simulation acceleration</h3>
+    <p>Achieved a <strong>100x speed-up</strong> on reactor-lifetime fission-gas simulations compared with reference simulations.</p>
+  </section>
+  <section class="result-card">
+    <h3>Uncertainty-aware detector reconstruction</h3>
+    <p>Contributed to uncertainty-aware gamma-photon interaction reconstruction in fast scintillator detectors, published in <em>Engineering Applications of Artificial Intelligence</em>.</p>
+  </section>
+</div>
 
+<p class="deployment-note">For use outside the training regime, I study monitoring and fallback logic so learned surrogates can defer to reference simulations when needed.</p>
 
-## Contact
+## Contact and Availability
 
-I am happy to discuss postdoc openings, research engineer positions, and collaborations in reliable AI, scientific ML, and representation learning. You can reach me at **mby.mohamedbahiyahiaoui@gmail.com** or through [LinkedIn](https://www.linkedin.com/in/mohamed-bahi-yahiaoui/).
+<div class="availability-card">
+  <p>I am currently open to <strong>postdoctoral opportunities</strong>, <strong>research engineer roles</strong>, and <strong>collaborations in reliable AI and scientific ML</strong>.</p>
+  <p>You can reach me at <a href="mailto:mby.mohamedbahiyahiaoui@gmail.com">mby.mohamedbahiyahiaoui@gmail.com</a> or through <a href="https://www.linkedin.com/in/mohamed-bahi-yahiaoui/">LinkedIn</a>.</p>
+</div>
